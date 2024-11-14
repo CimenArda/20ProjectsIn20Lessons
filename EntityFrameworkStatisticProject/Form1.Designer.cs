@@ -53,10 +53,9 @@
             this.lblproductavgprice = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
+            this.lblOrderTotalPriceByCategoryIsMeyveEF = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lblOrderTotalPriceByCategoryIsMeyve = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.lblOrderCountFromTurkiyeEF = new System.Windows.Forms.Label();
@@ -64,19 +63,19 @@
             this.lblOrderCountFromTurkiyeSQL = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
+            this.lblLastAddedCustomerName = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.label27 = new System.Windows.Forms.Label();
+            this.lblTotalPriceNameIsCamasirMakine = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
+            this.lblActiveProductCount = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.label31 = new System.Windows.Forms.Label();
+            this.lblLastAddedProductCategoryName = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
+            this.lblLastaddedProductName = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.lblProductCountByCategorySebzeAndStatusActive = new System.Windows.Forms.Label();
@@ -85,9 +84,10 @@
             this.lblproducttotalstock = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.label39 = new System.Windows.Forms.Label();
+            this.lbldifferentCountry = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -354,52 +354,42 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(157)))), ((int)(((byte)(61)))));
-            this.panel9.Controls.Add(this.label17);
-            this.panel9.Controls.Add(this.label18);
+            this.panel9.Controls.Add(this.label3);
+            this.panel9.Controls.Add(this.lblOrderTotalPriceByCategoryIsMeyveEF);
             this.panel9.Location = new System.Drawing.Point(1112, 416);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(316, 150);
             this.panel9.TabIndex = 11;
             // 
-            // label17
+            // lblOrderTotalPriceByCategoryIsMeyveEF
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(104, 84);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(83, 28);
-            this.label17.TabIndex = 1;
-            this.label17.Text = "label17";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(93, 25);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(135, 22);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Kategori Sayısı:";
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.AutoSize = true;
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.Location = new System.Drawing.Point(104, 84);
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.Name = "lblOrderTotalPriceByCategoryIsMeyveEF";
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.Size = new System.Drawing.Size(83, 28);
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.TabIndex = 1;
+            this.lblOrderTotalPriceByCategoryIsMeyveEF.Text = "label17";
             // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(189)))), ((int)(((byte)(115)))));
-            this.panel10.Controls.Add(this.label19);
+            this.panel10.Controls.Add(this.lblOrderTotalPriceByCategoryIsMeyve);
             this.panel10.Controls.Add(this.label20);
             this.panel10.Location = new System.Drawing.Point(741, 416);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(316, 150);
             this.panel10.TabIndex = 10;
             // 
-            // label19
+            // lblOrderTotalPriceByCategoryIsMeyve
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(104, 84);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(83, 28);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "label19";
+            this.lblOrderTotalPriceByCategoryIsMeyve.AutoSize = true;
+            this.lblOrderTotalPriceByCategoryIsMeyve.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrderTotalPriceByCategoryIsMeyve.Location = new System.Drawing.Point(104, 84);
+            this.lblOrderTotalPriceByCategoryIsMeyve.Name = "lblOrderTotalPriceByCategoryIsMeyve";
+            this.lblOrderTotalPriceByCategoryIsMeyve.Size = new System.Drawing.Size(83, 28);
+            this.lblOrderTotalPriceByCategoryIsMeyve.TabIndex = 1;
+            this.lblOrderTotalPriceByCategoryIsMeyve.Text = "label19";
             // 
             // label20
             // 
@@ -407,9 +397,9 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label20.Location = new System.Drawing.Point(93, 25);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(135, 22);
+            this.label20.Size = new System.Drawing.Size(255, 28);
             this.label20.TabIndex = 0;
-            this.label20.Text = "Kategori Sayısı:";
+            this.label20.Text = "Meyve Satışları Kazancı:";
             // 
             // panel11
             // 
@@ -464,82 +454,83 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(96)))), ((int)(((byte)(64)))));
-            this.panel13.Controls.Add(this.label25);
+            this.panel13.Controls.Add(this.lblLastAddedCustomerName);
             this.panel13.Controls.Add(this.label26);
             this.panel13.Location = new System.Drawing.Point(1112, 624);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(316, 150);
             this.panel13.TabIndex = 15;
             // 
-            // label25
+            // lblLastAddedCustomerName
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(104, 84);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(83, 28);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "label25";
+            this.lblLastAddedCustomerName.AutoSize = true;
+            this.lblLastAddedCustomerName.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastAddedCustomerName.Location = new System.Drawing.Point(62, 70);
+            this.lblLastAddedCustomerName.Name = "lblLastAddedCustomerName";
+            this.lblLastAddedCustomerName.Size = new System.Drawing.Size(83, 28);
+            this.lblLastAddedCustomerName.TabIndex = 1;
+            this.lblLastAddedCustomerName.Text = "label25";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label26.Location = new System.Drawing.Point(93, 25);
+            this.label26.Location = new System.Drawing.Point(3, 19);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(135, 22);
+            this.label26.Size = new System.Drawing.Size(318, 28);
             this.label26.TabIndex = 0;
-            this.label26.Text = "Kategori Sayısı:";
+            this.label26.Text = "Son Sipariş Veren Müşteri Adı:";
             // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(139)))), ((int)(((byte)(81)))));
-            this.panel14.Controls.Add(this.label27);
+            this.panel14.Controls.Add(this.lblTotalPriceNameIsCamasirMakine);
             this.panel14.Controls.Add(this.label28);
-            this.panel14.Location = new System.Drawing.Point(741, 624);
+            this.panel14.Location = new System.Drawing.Point(705, 624);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(316, 150);
+            this.panel14.Size = new System.Drawing.Size(384, 150);
             this.panel14.TabIndex = 14;
             // 
-            // label27
+            // lblTotalPriceNameIsCamasirMakine
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(104, 84);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(83, 28);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "label27";
+            this.lblTotalPriceNameIsCamasirMakine.AutoSize = true;
+            this.lblTotalPriceNameIsCamasirMakine.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPriceNameIsCamasirMakine.Location = new System.Drawing.Point(121, 70);
+            this.lblTotalPriceNameIsCamasirMakine.Name = "lblTotalPriceNameIsCamasirMakine";
+            this.lblTotalPriceNameIsCamasirMakine.Size = new System.Drawing.Size(83, 28);
+            this.lblTotalPriceNameIsCamasirMakine.TabIndex = 1;
+            this.lblTotalPriceNameIsCamasirMakine.Text = "label27";
+            this.lblTotalPriceNameIsCamasirMakine.Click += new System.EventHandler(this.label27_Click);
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(93, 25);
+            this.label28.Location = new System.Drawing.Point(3, 19);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(135, 22);
+            this.label28.Size = new System.Drawing.Size(332, 22);
             this.label28.TabIndex = 0;
-            this.label28.Text = "Kategori Sayısı:";
+            this.label28.Text = "Toplam Çamaşır Makinesi Kazanç Tutarı";
             // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(229)))), ((int)(((byte)(191)))));
-            this.panel15.Controls.Add(this.label29);
+            this.panel15.Controls.Add(this.lblActiveProductCount);
             this.panel15.Controls.Add(this.label30);
             this.panel15.Location = new System.Drawing.Point(372, 624);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(316, 150);
             this.panel15.TabIndex = 13;
             // 
-            // label29
+            // lblActiveProductCount
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(104, 84);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(83, 28);
-            this.label29.TabIndex = 1;
-            this.label29.Text = "label29";
+            this.lblActiveProductCount.AutoSize = true;
+            this.lblActiveProductCount.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblActiveProductCount.Location = new System.Drawing.Point(104, 84);
+            this.lblActiveProductCount.Name = "lblActiveProductCount";
+            this.lblActiveProductCount.Size = new System.Drawing.Size(83, 28);
+            this.lblActiveProductCount.TabIndex = 1;
+            this.lblActiveProductCount.Text = "label29";
             // 
             // label30
             // 
@@ -547,59 +538,59 @@
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label30.Location = new System.Drawing.Point(93, 25);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(135, 22);
+            this.label30.Size = new System.Drawing.Size(184, 28);
             this.label30.TabIndex = 0;
-            this.label30.Text = "Kategori Sayısı:";
+            this.label30.Text = "Aktif Ürün Sayısı:";
             // 
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(113)))), ((int)(((byte)(128)))));
-            this.panel16.Controls.Add(this.label31);
+            this.panel16.Controls.Add(this.lblLastAddedProductCategoryName);
             this.panel16.Controls.Add(this.label32);
             this.panel16.Location = new System.Drawing.Point(12, 624);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(316, 150);
             this.panel16.TabIndex = 12;
             // 
-            // label31
+            // lblLastAddedProductCategoryName
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(104, 84);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(83, 28);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "label31";
+            this.lblLastAddedProductCategoryName.AutoSize = true;
+            this.lblLastAddedProductCategoryName.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastAddedProductCategoryName.Location = new System.Drawing.Point(104, 84);
+            this.lblLastAddedProductCategoryName.Name = "lblLastAddedProductCategoryName";
+            this.lblLastAddedProductCategoryName.Size = new System.Drawing.Size(83, 28);
+            this.lblLastAddedProductCategoryName.TabIndex = 1;
+            this.lblLastAddedProductCategoryName.Text = "label31";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label32.Location = new System.Drawing.Point(93, 25);
+            this.label32.Location = new System.Drawing.Point(20, 25);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(135, 22);
+            this.label32.Size = new System.Drawing.Size(326, 28);
             this.label32.TabIndex = 0;
-            this.label32.Text = "Kategori Sayısı:";
+            this.label32.Text = "Son Eklenen Ürünün Kategorisi";
             // 
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(54)))), ((int)(((byte)(99)))));
-            this.panel17.Controls.Add(this.label33);
+            this.panel17.Controls.Add(this.lblLastaddedProductName);
             this.panel17.Controls.Add(this.label34);
             this.panel17.Location = new System.Drawing.Point(1450, 416);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(316, 150);
             this.panel17.TabIndex = 19;
             // 
-            // label33
+            // lblLastaddedProductName
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(104, 84);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(83, 28);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "label33";
+            this.lblLastaddedProductName.AutoSize = true;
+            this.lblLastaddedProductName.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLastaddedProductName.Location = new System.Drawing.Point(104, 84);
+            this.lblLastaddedProductName.Name = "lblLastaddedProductName";
+            this.lblLastaddedProductName.Size = new System.Drawing.Size(83, 28);
+            this.lblLastaddedProductName.TabIndex = 1;
+            this.lblLastaddedProductName.Text = "label33";
             // 
             // label34
             // 
@@ -607,9 +598,9 @@
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label34.Location = new System.Drawing.Point(93, 25);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(135, 22);
+            this.label34.Size = new System.Drawing.Size(201, 28);
             this.label34.TabIndex = 0;
-            this.label34.Text = "Kategori Sayısı:";
+            this.label34.Text = "Son Eklenen Ürün:";
             // 
             // panel18
             // 
@@ -674,32 +665,33 @@
             // panel20
             // 
             this.panel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(246)))), ((int)(((byte)(227)))));
-            this.panel20.Controls.Add(this.label39);
+            this.panel20.Controls.Add(this.lbldifferentCountry);
             this.panel20.Controls.Add(this.label40);
             this.panel20.Location = new System.Drawing.Point(1450, 624);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(316, 150);
             this.panel20.TabIndex = 16;
             // 
-            // label39
+            // lbldifferentCountry
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(104, 84);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(83, 28);
-            this.label39.TabIndex = 1;
-            this.label39.Text = "label39";
+            this.lbldifferentCountry.AutoSize = true;
+            this.lbldifferentCountry.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldifferentCountry.Location = new System.Drawing.Point(104, 84);
+            this.lbldifferentCountry.Name = "lbldifferentCountry";
+            this.lbldifferentCountry.Size = new System.Drawing.Size(83, 28);
+            this.lbldifferentCountry.TabIndex = 1;
+            this.lbldifferentCountry.Text = "label39";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label40.Location = new System.Drawing.Point(93, 25);
+            this.label40.Location = new System.Drawing.Point(25, 25);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(135, 22);
+            this.label40.Size = new System.Drawing.Size(299, 28);
             this.label40.TabIndex = 0;
-            this.label40.Text = "Kategori Sayısı:";
+            this.label40.Text = "Kaç Farklı Ülkeden Müşteri ?";
+            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
             // label2
             // 
@@ -710,6 +702,16 @@
             this.label2.Size = new System.Drawing.Size(341, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "Türkiyeden Yapılan Siparişler EF";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(79, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(204, 22);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Meyve Satışları Kazancı:";
             // 
             // Form1
             // 
@@ -811,10 +813,9 @@
         private System.Windows.Forms.Label lblproductavgprice;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lblOrderTotalPriceByCategoryIsMeyveEF;
         private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblOrderTotalPriceByCategoryIsMeyve;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label lblOrderCountFromTurkiyeEF;
@@ -822,19 +823,19 @@
         private System.Windows.Forms.Label lblOrderCountFromTurkiyeSQL;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label lblLastAddedCustomerName;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lblTotalPriceNameIsCamasirMakine;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label lblActiveProductCount;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label lblLastAddedProductCategoryName;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label lblLastaddedProductName;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label lblProductCountByCategorySebzeAndStatusActive;
@@ -843,9 +844,10 @@
         private System.Windows.Forms.Label lblproducttotalstock;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label lbldifferentCountry;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

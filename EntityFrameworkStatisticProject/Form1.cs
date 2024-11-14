@@ -72,9 +72,72 @@ namespace EntityFrameworkStatisticProject
             var orderCountFromTurkiyeWithEF = db.TblOrder.Count(z => turkishCustomerIds.Contains(z.CustomerId.Value));
             lblOrderCountFromTurkiyeEF.Text = orderCountFromTurkiyeWithEF.ToString();
 
+            //Siparişler içinde kategorisi meyve olan ürünlerin toplam satış fiyatı SQL QUERY **
+            var OrderTotalPriceByCategoryIsMeyve = db.Database.SqlQuery<decimal>("Select Sum(o.TotalPrice) as ToplamSatisFiyati from TblOrder o Join TblProduct p on o.ProductId=p.ProductId join TblCategory c on p.CategoryId =c.CategoryId where c.CategoryName='Meyve'").FirstOrDefault();
+            lblOrderTotalPriceByCategoryIsMeyve.Text = OrderTotalPriceByCategoryIsMeyve.ToString() + "TL";
+
+
+            //Siparişler içinde kategorisi meyve olan ürünlerin toplam satış fiyatı EF **
+            var OrderTotalPriceByCategoryIsMeyveEF =(from o in db.TblOrder
+                                                        join p in db.TblProduct on o.ProductId equals p.ProductId
+                                                        join c in db.TblCategory on p.CategoryId equals c.CategoryId
+                                                        where c.CategoryName == "Meyve"
+                                                        select o.TotalPrice).Sum();
+            lblOrderTotalPriceByCategoryIsMeyveEF.Text = OrderTotalPriceByCategoryIsMeyveEF.ToString() + "TL";
+
+
+            //Son Eklenen Ürün Adı
+            var lastProductName =db.TblProduct.OrderByDescending(x=>x.ProductId).Select(y=>y.ProductName).FirstOrDefault();
+                lblLastaddedProductName.Text = lastProductName.ToString();
+
+            //Son EKlenen Ürünün Kategorisi
+            var LastAddedProductCategoryId = db.TblProduct.OrderByDescending(x => x.ProductId).Select(y => y.CategoryId).FirstOrDefault();
+            var lastProductCategoryName =db.TblCategory.Where(x=>x.CategoryId==LastAddedProductCategoryId).Select(y=>y.CategoryName).FirstOrDefault();
+            lblLastAddedProductCategoryName.Text = lastProductCategoryName.ToString();
+
+
+            //Aktif Ürün Sayısı
+            var activeProductCount = db.TblProduct.Where(x => x.ProductStatus == true).Count();
+            lblActiveProductCount.Text= activeProductCount.ToString();
+
+
+
+            //Çamaşır Makinesi Ürününe Ait Toplam Kazanç Beklentisi
+            var machinestock = db.TblProduct.Where(x => x.ProductName == "Çamaşır Makinesi").Select(y=>y.ProductStock).FirstOrDefault();
+            var machinePrice =db.TblProduct.Where(x=>x.ProductName=="Çamaşır Makinesi").Select(y=>y.ProductPrice).FirstOrDefault();
+
+            var totalMachineStockPrice = machinestock * machinePrice;
+
+            lblTotalPriceNameIsCamasirMakine.Text = totalMachineStockPrice.ToString() + "TL";
+
+
+
+            //Sistemde Son Sipariş Veren Müşterinin Adı
+
+            var LastAddedCustomerId = db.TblOrder.OrderByDescending(x => x.OrderId).Select(y => y.CustomerId).FirstOrDefault();
+            var LastAddedCustomerName =db.TblCustomer.Where(x=>x.CustomerId==LastAddedCustomerId).Select(y=>y.CustomerName).FirstOrDefault();
+            lblLastAddedCustomerName.Text = LastAddedCustomerName.ToString();
+
+
+            //Kaç Farklı Ülkeden Müşterimiz Var ?
+
+            var differentCountry = db.TblCustomer.Select(x=>x.CustomerCountry).Distinct().Count();
+
+                lbldifferentCountry.Text= differentCountry.ToString();
+
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+            //SqlQuery,LINQ,OrderByDesc,Distinct
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label40_Click(object sender, EventArgs e)
         {
 
         }
