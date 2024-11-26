@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerOrderStockProject", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTProject", "JWTProject\JWTProject.csproj", "{3E707566-1998-4D2D-966F-AC1B2D46D09D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherCardProject", "WeatherCardProject\WeatherCardProject.csproj", "{1FE2128F-CF34-44CA-8CC3-C1954A79021F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3E707566-1998-4D2D-966F-AC1B2D46D09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E707566-1998-4D2D-966F-AC1B2D46D09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E707566-1998-4D2D-966F-AC1B2D46D09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE2128F-CF34-44CA-8CC3-C1954A79021F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE2128F-CF34-44CA-8CC3-C1954A79021F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE2128F-CF34-44CA-8CC3-C1954A79021F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE2128F-CF34-44CA-8CC3-C1954A79021F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
