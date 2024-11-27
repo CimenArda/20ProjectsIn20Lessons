@@ -54,7 +54,7 @@ namespace WeatherCardProject
                 double celcius = (double.Parse(fahrenheit) - 32);
 
                 double celciusvalue = celcius / 1.8;
-                lblcelcius.Text = celciusvalue.ToString();
+                lblcelcius.Text = celciusvalue.ToString("0.00");
             }
         }
     }
